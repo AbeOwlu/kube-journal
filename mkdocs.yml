@@ -1,0 +1,22 @@
+site_name: Tech Deep Dives and Tutorials
+site_url: https://abeowlu.github.io
+site_author: Abraham Olu
+site_description: >-
+  Tech Deep Dives and Tutorials
+nav:
+  - Home: index.md
+  - About: article8-netwrking.md
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+  palette:
+    primary: black
+    accent: deep purple
+  icon:
+    logo: fontawesome/solid/cubes
+
+markdown_extensions:
+  - sane_lists
+  - admonition
